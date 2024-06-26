@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+/* Estilos para o conteúdo dentro da seção #educacao */
+#educacao {
+    text-align: justify; /* Alinha o texto justificado */
+    line-height: 1.6; /* Define o espaçamento entre linhas */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+}
+
+#educacao h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+#educacao p {
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+}
+
+#educacao img {
+    display: block; /* Garante que a imagem tenha espaço em torno dela */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da seção */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    margin-top: 20px; /* Espaço acima da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+
+
+/* Estilos para o conteúdo dentro da seção #recursos */
+#recursos {
+    text-align: justify; /* Alinha o texto justificado */
+    line-height: 1.6; /* Define o espaçamento entre linhas */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+}
+
+#recursos h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+#recursos p {
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+}
+
+#recursos img {
+    display: block; /* Garante que a imagem tenha espaço em torno dela */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da seção */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    margin-top: 20px; /* Espaço acima da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+/* Estilos para o conteúdo dentro da seção #guias */
+#guias {
+    text-align: justify; /* Alinha o texto justificado */
+    line-height: 1.6; /* Define o espaçamento entre linhas */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+}
+
+#guias h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+#guias p {
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+}
+
+#guias img {
+    display: block; /* Garante que a imagem tenha espaço em torno dela */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da seção */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    margin-top: 20px; /* Espaço acima da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+/* Estilos para a lista de guias */
+.guias-lista {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.guias-lista li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para o conteúdo dentro da seção #impacto */
+#impacto {
+    text-align: justify; /* Alinha o texto justificado */
+    line-height: 1.6; /* Define o espaçamento entre linhas */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+}
+
+#impacto h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+#impacto p {
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+}
+#impacto img {
+    display: block; /* Garante que a imagem tenha espaço em torno dela */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da seção */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    margin-top: 20px; /* Espaço acima da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+/* Estilos para as seções */
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* Estilos para o formulário */
+#experiencias h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.formulario input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.formulario button:hover {
+    background-color: #45a049;
+}
+
+#experiencias img {
+    display: block; /* Garante que a imagem tenha espaço em torno dela */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da seção */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    margin-top: 20px; /* Espaço acima da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+footer {
+    background-color: #ffcc00;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+}
